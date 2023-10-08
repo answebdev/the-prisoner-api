@@ -1,13 +1,13 @@
-const express = require('express');
-const episodes = require('./api/episodes');
-const cors = require('cors');
+// const express = require('express');
+// const episodes = require('./api/episodes');
+// const cors = require('cors');
 
-const app = express();
+// const app = express();
 
-app.use(cors());
+// app.use(cors());
 
-const PORT = process.env.PORT || 5000;
+// const PORT = process.env.PORT || 5000;
 
-app.use('/episodes', episodes);
+// app.use('/episodes', episodes);
 
-app.listen(PORT, () => console.log(`Server is running on port ${PORT}...`));
+// app.listen(PORT, () => console.log(`Server is running on port ${PORT}...`));
