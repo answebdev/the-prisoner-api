@@ -12,4 +12,11 @@ router.get('/', async (req, res) => {
     }
 });
 
+// Get by episode id
+router.get(`/:id`, (req, res) => {
+    let items = episodes;
+    let data = items.find((item) => item.id == req.params.id);
+    res.json(data);
+});
+
 module.exports = router;
