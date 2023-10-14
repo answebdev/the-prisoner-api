@@ -1,4 +1,4 @@
-# The The Prisoner API
+# The Prisoner API
 
 ![banner](https://github.com/answebdev/the-prisoner-api/assets/36783010/b853041d-40db-4c9b-9c6c-a43863b53040)
 
@@ -8,7 +8,7 @@ Welcome to the Twilight Zone API. This documentation should provide you with all
 
 ### Base Url
 
-`https://the-twilight-zone-api.vercel.app/`
+`https://theprisonerapi.vercel.app/`
 
 &nbsp;
 ### Episode Attributes
