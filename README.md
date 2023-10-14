@@ -54,7 +54,7 @@ fetch('https://the-prisoner-api.vercel.app/episodes')
 Example request by episode id. In this example, episode with an id of 1 is being requested.
 
 ```
-fetch('(https://the-prisoner-api.vercel.app/episodes/1')
+fetch('https://the-prisoner-api.vercel.app/episodes/1')
   .then(response => response.json())
   .then(json => console.log(json))
 ```
