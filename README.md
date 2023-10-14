@@ -43,7 +43,7 @@ Endpoint to retrieve information from all episodes.
 The request for all of the episodes looks like this.
 
 ```
-fetch('https://the-twilight-zone-api.vercel.app/episodes')
+fetch('https://https://the-prisoner-api.vercel.app/episodes')
   .then(response => response.json())
   .then(json => console.log(json))
 ```
