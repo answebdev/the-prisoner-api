@@ -42,7 +42,7 @@ Endpoint to retrieve information from all episodes.
 &nbsp;
 The request for all of the episodes looks like this.
 
-```
+```javascript
 fetch('https://the-prisoner-api.vercel.app/episodes')
   .then(response => response.json())
   .then(json => console.log(json))
@@ -53,7 +53,7 @@ fetch('https://the-prisoner-api.vercel.app/episodes')
 
 Example request by episode id. In this example, episode with an id of 1 is being requested.
 
-```
+```javascript
 fetch('https://the-prisoner-api.vercel.app/episodes/1')
   .then(response => response.json())
   .then(json => console.log(json))
