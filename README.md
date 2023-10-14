@@ -17,19 +17,20 @@ Welcome to The Prisoner API. This documentation should provide you with all the 
 | :---         |     :---      |          :--- |
 | id   | integer     | Unique id per episode    |
 | title     | string       | Episode title      |
-| season   | string     | Season number    |
 | episode     | string       | Episode number      |
-| directed_by   | string     | Episode director(s)    |
-| written_by     | string       | Episode writer      |
+| directed_by   | string     | Episode director    |
+| written_by     | array       | Episode writer(s)      |
 | air_year   | string     | Original year episode aired    |
 | air_date     | string       | Original air date      |
-| storyline   | string     | Brief overview of episode    |
-| cast     | array       | Episode actor(s)      |
-| opening_narration   | string     | Narration at opening of episode    |
-| closing_narration     | string       | Narration at closing of episode      |
+| wikipedia_storyline   | string     | Brief overview of episode from Wikipedia    |
+| imdb_storyline   | string     | Brief overview of episode from IMDb    |
+| cast     | string       | Episode actor      |
+| guest_appearances     | array       | Episode guest actor(s)      |
+| title_img   | string     | Title image from episode    |
 | img   | string     | Image from episode    |
 | wikipedia     | string       | Link to episode Wikipedia page      |
 | imdb   | string     | Link to episode IMDb page    |
+| trivia   | string     | Trivia from episode    |
 
 &nbsp;
 ### Get all episodes
