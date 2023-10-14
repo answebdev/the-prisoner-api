@@ -62,7 +62,7 @@ fetch('https://the-prisoner-api.vercel.app/episodes/1')
 
 Running this script will return the following data.
 
-```
+```json
 {
     "id": 1,
     "title": "Arrival",
